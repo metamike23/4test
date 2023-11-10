@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>4 GALLERY</title>
+        <!-- Fonts-->
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+        <!-- Bootstrap icons-->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <!-- Custom CSS)-->
+        <link href="css/stylesheet.css" rel="stylesheet">
+        <link href="css/cartstyle.css" rel="stylesheet">
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="#!">
+                    <h1>
+                        <span class="badge bg-secondary text-bg-info"><i class="bi bi-instagram"></i></span>
+                        <span class="badge bg-secondary text-bg-info"><i class="bi bi-youtube"></i></span>
+                    </h1>
+                </a>
+                    <form class="d-flex">
+                        <!-- Button trigger modal -->
+                        <button type="button" class="btn btn-outline-dark btn-warning" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+                            <i class="bi-cart-fill me-1"></i>
+                                Cart
+                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        </button>
+  
+                        <!-- Modal -->
+                        <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                        <div class="modal-dialog modal-lg">
+                        <div class="modal-content">
+                        <div class="modal-header">
+                            <i class="bi-cart-fill me-1"></i>
+                            Cart
+                        <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+
+
+                            <div class="container py-5 h-100">
+                                <div class="row d-flex justify-content-center align-items-center h-100">
+                                  <div class="col-12">
+                                    <div class="card card-registration card-registration-2" style="border-radius: 15px;">
+                                      <div class="card-body p-0">
+                                        <div class="row g-0">
+                                          <div class="col-lg-8">
+                                            <div class="p-5">
+                                              <div class="d-flex justify-content-between align-items-center mb-5">
+                                                <h5 class="mb-0 text-muted">Items</h5>
+                                              </div>
+
+                                              <hr class="my-4">
+                                              <div class="row mb-4 d-flex justify-content-between align-items-center">
+                                                <div class="col-md-2 col-lg-2 col-xl-2">
+                                                  <img
+                                                    src="grayT.jpeg"
+                                                    class="img-fluid rounded-3" alt="Cotton T-shirt">
+                                                </div>
+                                                <div class="col-md-3 col-lg-3 col-xl-3">
+                                                  <h6 class="text-muted">Shirt</h6>
+                                                  <h6 class="text-black mb-0">Cotton T-shirt</h6>
+                                                </div>
+                                                <div class="col-md-3 col-lg-3 col-xl-2 d-flex">
+                                                  <button class="btn btn-link px-2"
+                                                    onclick="this.parentNode.querySelector('input[type=number]').stepDown()">
+                                                    <i class="fas fa-minus"></i>
+                                                  </button>
+                            
+                                                  <input id="form1" min="0" name="quantity" value="1" type="number"
+                                                    class="form-control form-control-sm" />
+                            
+                                                  <button class="btn btn-link px-2"
+                                                    onclick="this.parentNode.querySelector('input[type=number]').stepUp()">
+                                                    <i class="fas fa-plus"></i>
+                                                  </button>
+                                                </div>
+                                                <div class="col-md-3 col-lg-2 col-xl-2 offset-lg-1">
+                                                  <h6 class="mb-0">$ 44.00</h6>
+                                                </div>
+                                                <div class="col-md-1 col-lg-1 col-xl-1 text-end">
+                                                  <a href="#!" class="text-muted"><i class="fas fa-times"></i></a>
+                                                </div>
+                                              </div>
+                            
+                            
+                                              <hr class="my-4">
+                                            </div>
+                                          </div>
+                                          <div class="col-lg-4 bg-grey">
+                                            <div class="p-5">
+                                                <div class="d-flex justify-content-between align-items-center mb-5">
+                                                  <h5 class="mb-0 text-muted">Summary</h5>
+                                                </div>
+                                              <hr class="my-4">
+                                                
+                                              <label for="shipping_option" class="form-label">
+                                                <h5 class="mb-2 text-muted">Shipping</h5>
+                                              </label>
+                                              <div class="form-check" id ="shipping_option">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
+                                                <label class="form-check-label" for="flexRadioDefault1">
+                                                  Standard $10
+                                                </label>
+                                              </div>
+                                              <div class="form-check mb-3">
+                                                <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                                                <label class="form-check-label" for="flexRadioDefault2">
+                                                  Expedited $17
+                                                </label>
+                                              </div>
+
+
+                                              <div class="mb-3">
+                                                <label for="formGroupExampleInput" class="form-label">First and Last Name</label>
+                                                <input type="text" class="form-control" id="formGroupExampleInput">
+                                              </div>
+                                              <div class="mb-3">
+                                                <label for="exampleFormControlInput1" class="form-label">Email Address</label>
+                                                <input type="email" class="form-control" id="exampleFormControlInput1">
+                                              </div>
+                                              <hr class="my-4">
+                            
+                                              <div class="row mb-5 total_cost_row">
+                                                <div class="col-5">
+                                                    <h5 class="mt-4">Total</h5>
+                                                </div>
+                                                <div class="col">
+                                                    <h5 class="mt-4">$ 140</h5>
+                                                </div>
+                                            </div>
+                                                    
+
+
+
+
+                            
+                                              <button type="button" class="btn btn-warning btn-block"
+                                                data-mdb-ripple-color="dark">Checkout</button>
+                            
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            
+
+
+
+
+
+
+
+                        </div>
+                        <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                        </div>
+                        </div>
+                        </div>
+  
+
+                    </form>
+            </div>
+        </nav>
+
+
+
+
+        <!-- Header-->
+        <header class="bg-dark py-5">
+            <div class="container px-4 px-lg-5">
+
+                <div class="row">
+                    <div class="col col-md-6">
+
+                        <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="pool-ball-container">
+                                    <div class="pool-ball">
+                                        <div class="number">4</div> 
+                                    </div>
+                                </div>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="pool-ball-container">
+                                    <div class="pool-ball" id="sprint2">
+                                        <div class="number">4</div> 
+                                    </div>
+                                </div>
+                              </div>
+
+                              <div class="carousel-item">
+                                <div class="pool-ball-container">
+                                    <div class="pool-ball" id="sprint3">
+                                        <div class="number"><i class="bi bi-dice-4"></i></div> 
+                                    </div>
+                                </div>
+                              </div>
+
+                              <div class="carousel-item">
+                                <div class="pool-ball-container">
+                                    <div id="sprint4">
+                                        <div class="number-circle">
+                                            <div class="circle-header">
+                                                <div class="number-header">4</div>
+                                                <div class="gallery-text">GALLERY</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                              </div>
+
+                            </div>
+                          </div>
+                    </div>
+
+
+                    <div class="col col-md-4">
+                        <h2 class="text-white mt-5">FOUR</h2>
+                        <h2 class="text-white text-center mt-2">GALLERY</h2>
+                        <h2 class="text-white text-end mt-2">MOBILE</h2>
+                    </div>
+                    
+                </div>
+                      
+                   
+                    
+                </div>
+                
+
+                </div>
+            </div>
+        </header>
+
+
+
+
+
+
+
+        <!-- Section-->
+        <section class="py-5">
+            <div class="container px-4 px-lg-5 mt-5">
+                <div class="row gx-4 gx-lg-5 row-cols-2 row-cols-md-3 row-cols-xl-4 justify-content-center">
+                    
+                    
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="grayT.jpeg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="blkhat.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product price-->
+                                    $18.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+                   
+                   
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="IMG_2695.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product price-->
+                                    $25.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col mb-5">
+                        <div class="card h-100">
+                            <!-- Product image-->
+                            <img class="card-img-top" src="IMG_2696.jpg" alt="..." />
+                            <!-- Product details-->
+                            <div class="card-body p-4">
+                                <div class="text-center">
+                                    <!-- Product price-->
+                                    $40.00
+                                </div>
+                            </div>
+                            <!-- Product actions-->
+                            <div class="card-footer p-4 pt-0 border-top-0 bg-transparent">
+                                <div class="text-center"><a class="btn btn-outline-dark mt-auto" href="#">Add to cart</a></div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+
+
+                    
+                   
+
+
+                    
+                        
+                </div>
+            </div>
+        </section>
+        <!-- Footer-->
+        <footer class="bg-dark">
+            <div class="container">
+                <div class="row">
+
+                    <div class="outter-box">
+                        <span class="badge bg-secondary text-bg-info nav-4-logo">
+                            <div class="circle">
+                                <div class="number-footer">4</div>
+                            </div>
+                        </span>
+                    </div>
+                </div>
+
+                
+
+                
+                
+
+                
+
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>

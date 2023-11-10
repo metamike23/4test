@@ -1,0 +1,168 @@
+
+/* Add background-like styles to card-img-top */
+.bg-image {
+    object-fit: cover;
+    height: 120px; /* Adjust the height as needed */
+}
+
+.nav-logo {
+    height: 20px; /* Adjust the height as needed */
+}
+
+
+
+.intro-card-2 {
+    height: 375px;
+}
+
+
+
+@media (max-width: 500px) {
+    
+
+    .bg-image {
+        object-fit: cover;
+        height: 50px; /* Adjust the height as needed */
+    }
+
+    .socials {
+        width: 10rem;
+    }
+
+    .circle-header {
+        width: 40px; /* Adjust the size of the circle */
+        height: 40px; /* Adjust the size of the circle */
+        border-radius: 50%; /* Shape the container as a circle */
+        background-color: #f0f0f0; /* Circle background color */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transform: rotate(180deg); /* Rotate the circle upside down */
+    }
+
+    .number-footer {
+        font-size: 4rem; /* Adjust the font size of the number */
+        color: #000; /* Number color */
+    }
+
+
+}
+
+.circle {
+    width: 45px; /* Adjust the size of the circle */
+    height: 45px; /* Adjust the size of the circle */
+    border-radius: 60%; /* Shape the container as a circle */
+    background-color: #f0f0f0; /* Circle background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg); /* Rotate the circle upside down */
+}
+
+.number-footer {
+    font-size: 3rem; /* Adjust the font size of the number */
+    color: #000; /* Number color */
+    z-index: 4;
+}
+
+
+
+
+
+
+
+.circle-header {
+    width: 200px; /* Adjust the size of the circle */
+    height: 200px; /* Adjust the size of the circle */
+    border-radius: 50%; /* Shape the container as a circle */
+    background-color: #f0f0f0; /* Circle background color */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(180deg); /* Rotate the circle upside down */
+}
+
+.number-header {
+    font-size: 5em; /* Adjust the font size of the number */
+    color: #000; /* Number color */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.pool-ball-container {
+    display: flex;
+    align-items: center;
+}
+
+.pool-ball {
+    width: 200px; /* Adjust the size of the pool ball */
+    height: 200px; /* Adjust the size of the pool ball */
+    border-radius: 50%; /* Circular shape */
+    background: purple; /* Solid color for the pool ball */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: white; /* Font color for the number */
+    font-size: 2em; /* Adjust the font size */
+}
+
+.number {
+    width: 90px; /* Size of the number circle */
+    height: 90px; /* Size of the number circle */
+    border-radius: 50%; /* Circular shape for the number circle */
+    background: white; /* Solid color for the number circle */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 20px; /* Adjust position of the number circle */
+    color: black; /* Font color for the number */
+    font-weight: bolder;
+    transform: rotate(180deg); /* Rotate the 4 upside down */
+}
+
+#sprint2 {
+    background: red;
+}
+
+
+#sprint3 {
+    background: #0bd3d3;
+}
+
+
+
+
+
